@@ -3,7 +3,7 @@ if(isset($_POST['submit'])){
     $to = "ashraf1sikender@utexas.edu"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
-    $subject = "Contact from AikenderAshraf.me";
+    $subject = "Contact from SikenderAshraf.me";
     $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
         </div>
     </div>
     <!-- Javascript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
