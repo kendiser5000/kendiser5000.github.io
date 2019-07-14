@@ -55,16 +55,16 @@ if(isset($_POST['submit'])){
                 <div class="row">
                     <div class="six columns">
                         <label for="email">Your email</label>
-                        <input class="u-full-width" type="email" placeholder="Your email..." id="email">
+                        <input class="u-full-width" type="email" placeholder="Your email..." id="email" name = "_replyto">
                     </div>
                     <div class="six columns">
                         <label for="name">Your Name</label>
-                        <input class="u-full-width" type="text" placeholder="Your name..." id="name">
+                        <input class="u-full-width" type="text" placeholder="Your name..." id="name" name = "name">
                     </div>
                 </div>
                 <label for="message">Message</label>
-                <textarea class="u-full-width" placeholder="Hi Sikender you're AWESOME..." id="message"></textarea>
-                <button type="submit" class="button">Submit</div>
+                <textarea class="u-full-width" placeholder="Hi Sikender you're AWESOME..." id="message" name = message></textarea>
+                <button type="submit" class="button" value = "Send">Submit</div>
             </form>
         </div>
         <div class="row">
