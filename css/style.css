@@ -293,7 +293,7 @@ select {
 @media (min-width: 1000px) {
     .footer {}
     .cta {
-        position: fixed;
+        /*position: fixed;*/
         bottom: 0px;
         text-align: center;
     }
